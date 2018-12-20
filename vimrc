@@ -35,5 +35,5 @@ autocmd BufRead *.py highlight BadWhitespace ctermbg=red guibg=red
 autocmd BufRead *.py match BadWhitespace /^\t\+/
 autocmd BufRead *.py match BadWhitespace /\s\+$/
 
-# Turn off automatic visual mode
+" Turn off automatic visual mode
 set mouse-=a

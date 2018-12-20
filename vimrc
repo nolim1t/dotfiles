@@ -22,7 +22,6 @@ set nowrap
 map <C-B> :w !php -l<CR>
 
 syntax on
-
 " Handle Python stuff
 autocmd BufRead *.py set smartindent cinwords=if,elif,else,for,while,try,except,finally,def,class
 "autocmd BufRead *.py inoremap # X^H#
@@ -35,3 +34,6 @@ autocmd BufRead *.py set autoindent
 autocmd BufRead *.py highlight BadWhitespace ctermbg=red guibg=red
 autocmd BufRead *.py match BadWhitespace /^\t\+/
 autocmd BufRead *.py match BadWhitespace /\s\+$/
+
+# Turn off automatic visual mode
+set mouse-=a

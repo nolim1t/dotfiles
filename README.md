@@ -8,6 +8,22 @@ Folders
 * gitignore - contains my usual git ignore stuff
 * cocoapods - Contains a podfile for my usual Cocoapods libraries
 
+Installing
+--------
+
+```bash
+# If you have a .vimrc or .profile you probably should check them out first. Pull requests welcome.
+
+cd $HOME
+if ! [ -f .profile ]; then
+    ln -s src/dotfiles/profile .profile
+fi
+
+if ! [ -f .vimrc ]; then
+    ln -s src/dotfiles/profile .vimrc
+fi
+```
+
 Usage
 --------
 * Choose file you want (or just clone this whole repo)

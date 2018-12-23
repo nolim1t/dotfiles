@@ -1,6 +1,8 @@
 [user]
 	signingkey = 6DFA2E696D0CE3000D058FD8EE7BB0253A668CD2
 	name = nolim1t
-	email = hello@REMOVETHENOSPAM.nolim1t.co
+	email = hello@NOSPAM.nolim1t.co
 [commit]
 	gpgsign = true
+[pager]
+	diff = false

@@ -6,3 +6,5 @@
 	gpgsign = true
 [pager]
 	diff = false
+	branch = false
+	log = false

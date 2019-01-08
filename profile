@@ -8,7 +8,7 @@ if ! command -v gpg 2>&1 1>/dev/null; [ "$?" -ne "0" ]; then
 fi
 
 if ! command -v /usr/local/go/bin/go 2>&1 1>/dev/null; [ "$?" -ne "0" ]; then
-    export GOPATH=/home/pi/gocode
+    export GOPATH=$HOME/gocode
     export PATH=$PATH:/usr/local/go/bin:/home/pi/gocode/bin
 fi
 

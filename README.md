@@ -30,5 +30,5 @@ Usage
 * Go to RAW mode and grab the URL
 * curl -o filename "http://url"
 * wget "http://url"
-* add . in front of the file
+* add . in front of the file, some files may require extra care such as ```dotssh``` which should be be called ```.ssh``` but I recommend doing ```ln -s src/dotfiles/dotssh/config $HOME/.ssh/config``` instead
 * If you got changes fork and do pull request

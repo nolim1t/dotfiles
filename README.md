@@ -3,6 +3,7 @@ dotfiles
 
 self explanatory. But seriously this is to keep a copy of my CLI development environment configuration.
 
+
 Folders
 --------
 * gitignore - contains my usual git ignore stuff

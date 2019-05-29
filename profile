@@ -1,5 +1,5 @@
 # Set up Prompt and PATH
-export PS1='\[\033[0;34m\]\u\[\033[0;31m\]@\[\033[0;35m\]\h\[\033[0;33m\] \w\[\033[00m\]:\$ '
+export PS1='\[\033[1;36m\]\u\[\033[1;31m\]@\[\033[1;33m\]\h\[\033[0;33m\] \w\[\033[00m\]:\$ '
 
 # LNCLI within docker (if lncli not installed)
 if [ $(which lncli | grep -c lncli) == 0 ]; then
